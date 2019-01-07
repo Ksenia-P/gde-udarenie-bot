@@ -223,3 +223,11 @@ function newQuestion(msg){
         full_answer: ' В данном слове ударение должно быть поставлено на слог с буквой О — дОнизу.'
       }
     ];
+
+
+
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 8000;
+}
+app.listen(port);
