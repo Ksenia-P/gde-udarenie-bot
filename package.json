@@ -1,0 +1,18 @@
+{
+  "name": "accents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "git add . && git commit -m 'fix' && git push heroku master"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "goose-parser": "^0.5.2",
+    "goose-phantom-environment": "^1.0.18",
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
+
