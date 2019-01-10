@@ -4,6 +4,10 @@ const cheerio = require('cheerio')
 const config = require('./config')
 const helper = require('./helper')
 
+require('http').createServer().listen(process.env.PORT || 5000).on('request', function(req, res){
+    res.end('')
+})
+
 helper.logStart()
 
 const bot = new TelegramBot(config.TOKEN, {
