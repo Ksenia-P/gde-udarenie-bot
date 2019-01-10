@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node index.js"
   },
   "engines": {
     "node": "11.4.0"
@@ -12,9 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "goose-parser": "^0.5.2",
-    "goose-phantom-environment": "^1.0.18",
-    "node-telegram-bot-api": "^0.30.0"
+    "cheerio": "^1.0.0-rc.2",
+    "node-telegram-bot-api": "^0.30.0",
+    "request": "^2.88.0"
   }
 }
-
